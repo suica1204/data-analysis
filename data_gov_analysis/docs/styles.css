@@ -1,0 +1,65 @@
+/* カスタムスタイル */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+.quarto-title {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.quarto-title-block {
+  background: none;
+}
+
+/* コードブロックのスタイル */
+.sourceCode {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+/* 表のスタイル */
+.dataTables_wrapper {
+  margin: 1rem 0;
+}
+
+/* 図のキャプションスタイル */
+.figure-caption {
+  font-style: italic;
+  color: #6c757d;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+/* 統計ボックス */
+.stats-box {
+  background: #f8f9fa;
+  border-left: 4px solid #3498db;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+}
+
+/* レスポンシブ設定 */
+@media (max-width: 768px) {
+  .quarto-title {
+    padding: 1rem;
+  }
+  
+  body {
+    font-size: 14px;
+  }
+}
