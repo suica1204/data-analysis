@@ -1,7 +1,7 @@
 ---
 title: "Alternative Fuel Stations Analysis Report"
 subtitle: "Analysis of US Alternative Fuel Infrastructure using data.gov API"
-author: "Data Analysis Team"
+author: "shuhei_ando"
 date: today
 format: 
   html:
