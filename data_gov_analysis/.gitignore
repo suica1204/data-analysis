@@ -1,0 +1,32 @@
+# .gitignore - Exclude sensitive files from version control
+
+# Environment variables and sensitive information
+.env
+.Renviron
+
+# R data files
+*.RData
+*.rda
+*.rds
+
+# History files
+.Rhistory
+.Rapp.history
+
+# R project files
+.Rproj.user/
+.Ruserdata
+
+# Temporary files
+*.utf8.md
+*.knit.md
+
+# Cache files
+*_cache/
+/cache/
+
+# Session files
+.RData
+
+# Mac system files
+.DS_Store

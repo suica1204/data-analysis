@@ -13,12 +13,16 @@ library(patchwork)
 library(DT)
 library(scales)
 
+# API Configuration - セキュア版
+# .envファイルから環境変数を読み込み
+if (file.exists(".env")) {
+  readRenviron(".env")
+}
+
 # API Configuration
-# Set API key as environment variable for security
 api_key <- Sys.getenv("DATA_GOV_API_KEY")
 if (nchar(api_key) == 0) {
-  api_key <- "8eWGpaE777xc3bQ3ZXt4oqN6NgGy7eXCsSbxBBaW"
-  Sys.setenv(DATA_GOV_API_KEY = api_key)
+  stop("API key not found. Please set DATA_GOV_API_KEY in .env file")
 }
 
 # Data Collection Function
