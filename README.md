@@ -1,1 +1,1 @@
-This is a data analysis repository  by using Positron.
+this is a repositry for data-analysis
